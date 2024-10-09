@@ -1,0 +1,2 @@
+172.21.0.1 - - [09/Oct/2024:19:32:41 +0000] "GET / HTTP/1.1" 200 615 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" "-"
+172.21.0.1 - - [09/Oct/2024:19:32:41 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" "-"
