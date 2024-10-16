@@ -13,3 +13,32 @@
 2024/10/09 20:47:34 [notice] 1#1: start worker processes
 2024/10/09 20:47:34 [notice] 1#1: start worker process 30
 2024/10/09 20:48:00 [error] 30#30: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:5000", referrer: "http://localhost:5000/"
+2024/10/10 06:53:16 [notice] 1#1: using the "epoll" event method
+2024/10/10 06:53:16 [notice] 1#1: nginx/1.27.2
+2024/10/10 06:53:16 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 06:53:16 [notice] 1#1: OS: Linux 6.1.0-26-amd64
+2024/10/10 06:53:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 06:53:16 [notice] 1#1: start worker processes
+2024/10/10 06:53:16 [notice] 1#1: start worker process 29
+2024/10/10 07:41:16 [notice] 1#1: using the "epoll" event method
+2024/10/10 07:41:16 [notice] 1#1: nginx/1.27.2
+2024/10/10 07:41:16 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 07:41:16 [notice] 1#1: OS: Linux 6.1.0-26-amd64
+2024/10/10 07:41:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 07:41:16 [notice] 1#1: start worker processes
+2024/10/10 07:41:16 [notice] 1#1: start worker process 21
+2024/10/10 07:54:46 [notice] 1#1: using the "epoll" event method
+2024/10/10 07:54:46 [notice] 1#1: nginx/1.27.2
+2024/10/10 07:54:46 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 07:54:46 [notice] 1#1: OS: Linux 6.1.0-26-amd64
+2024/10/10 07:54:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 07:54:46 [notice] 1#1: start worker processes
+2024/10/10 07:54:46 [notice] 1#1: start worker process 30
+2024/10/16 07:22:11 [notice] 1#1: using the "epoll" event method
+2024/10/16 07:22:11 [notice] 1#1: nginx/1.27.2
+2024/10/16 07:22:11 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/16 07:22:11 [notice] 1#1: OS: Linux 6.1.0-26-amd64
+2024/10/16 07:22:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/16 07:22:11 [notice] 1#1: start worker processes
+2024/10/16 07:22:11 [notice] 1#1: start worker process 29
+2024/10/16 07:23:14 [error] 29#29: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:5000", referrer: "http://localhost:5000/"
