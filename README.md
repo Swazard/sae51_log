@@ -89,7 +89,7 @@ http://localhost:3000
 ```
 
 Vous pouvez ensuite configurer Loki comme source de données dans Grafana et créer un tableau de bord pour visualiser les logs collectés.
-Vous pouvez voir les logs "brutes" dans la catégorie Explore, ou bien créer un dashboard, aller dans dans code et taper count_over_time({filename="/tmp/app-logs/access.log"}[10s]) ou error.log dépendant des logs voulus.
+- Pour voir les logs "brutes", aller dans la catégorie Explore. Sinon créer un dashboard, aller dans dans code et taper count_over_time({filename="/tmp/app-logs/access.log"}[10s]) ou error.log dépendant des logs voulus.
 ---
 
 - [Grafana Documentation](https://grafana.com/docs/)
