@@ -10,7 +10,7 @@ Dans cette documentation, nous allons expliquer comment collecter des logs avec 
   
 - **Loki** : Un agrégateur de logs conçu pour fonctionner de manière similaire à Prometheus (mais pour les logs). Loki indexe les logs par les labels et stocke les fichiers logs bruts sans les analyser, ce qui le rend plus léger.
 
-- **Alloy** : C’est l’agent qui collecte les logs sur les serveurs (ou conteneurs). Il récupère les fichiers de logs de Nginx (et d'autres services) et les envoie vers Loki pour stockage et indexation.
+- **Alloy** : C’est l’agent qui collecte les logs sur les serveurs (ou conteneurs). Il récupère les fichiers de logs de Nginx (et d'autres services) et les envoie vers Loki pour stockage et indexation, ici il utilise un volume partagé entre le docker nginx, la machine et le docker Alloy.
 
 - **Nginx** : Serveur HTTP qui dans cet exemple génère des logs (les accès au serveur, les erreurs, etc.). Ces logs seront envoyés vers Loki via Alloy.
 
